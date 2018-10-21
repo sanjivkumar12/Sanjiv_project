@@ -1,2 +1,2 @@
-"I have News"
-"And more lines are added"
+commit_id= $(git rev-parse HEAD);
+puts "commit ID is #{commit_id}."

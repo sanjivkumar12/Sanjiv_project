@@ -1,2 +1,2 @@
-commit_id= $(git rev-parse HEAD);
-puts "commit ID is #{commit_id}."
+commit = `git rev-parse HEAD`;
+puts commit;
